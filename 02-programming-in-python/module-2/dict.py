@@ -15,3 +15,6 @@ print(f"username: {user['username']}")
 print(f"email: {user['email']}")
 
 user["username"] = "bani son of dragon"
+
+user.update({"is_handsome": True})
+print(user)
