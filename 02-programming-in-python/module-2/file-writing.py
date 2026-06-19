@@ -1,5 +1,6 @@
+
 try:
-    with open("sample/newFile.txt", mode="a") as file:
+    with open("sample/newFile.txt", mode="w") as file:
         file.writelines(
             [
                 "\nThis is a new file created!",
